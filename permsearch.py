@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 
 def readPolicy():
@@ -87,5 +89,5 @@ for category in allPerms:
             if perm not in theEvents:
                 print('{}.{}'.format(category, perm))
     else:
-        print('-> Whole catagory {} unused!'.format(category));
+        print('-> Whole catagory {} unused!'.format(category))
 
